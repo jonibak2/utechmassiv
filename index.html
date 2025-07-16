@@ -2,10 +2,10 @@
 <html lang="he">
 <head>
   <meta charset="UTF-8">
-  <title>ייבוא פרויקטים ל-Firebase</title>
+  <title>ייבוא ובחירת פרויקטים</title>
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+    import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyCH6xMNFHhref9S7X07yJR9fafDHzrmEtc",
@@ -19,70 +19,136 @@
 
     const app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
+    const dbRef = ref(db);
 
-    const fileInput = document.getElementById("fileUpload");
-    const importBtn = document.getElementById("importBtn");
-    const logDiv = document.getElementById("log");
+    let allData = {};
 
-    importBtn.addEventListener("click", () => {
-      const files = fileInput.files;
-      if (!files.length) {
-        alert("נא לבחור קבצי JSON");
-        return;
-      }
+    function formatDate(d) {
+      if (!/^\d{8}$/.test(d)) return d;
+      return `${d.substring(0, 2)}/${d.substring(2, 4)}/${d.substring(4, 8)}`;
+    }
+
+    function fillForm(data) {
+      document.getElementById("city").value = data.city || "";
+      document.getElementById("date").value = formatDate(data.date || "");
+      document.getElementById("desc").value = data.description || "";
+      document.getElementById("system").value = data.system || "";
+      document.getElementById("price").value = data.price || "";
+      document.getElementById("manager").value = data.manager || "";
+      document.getElementById("agreement").value = data.agreement_raw || "";
+    }
+
+    function renderList(search = "") {
+      const list = document.getElementById("address-list");
+      list.innerHTML = "";
+
+      const searchLower = search.trim().toLowerCase();
+      Object.entries(allData).forEach(([id, rec]) => {
+        if (rec.address && rec.address.toLowerCase().includes(searchLower)) {
+          const li = document.createElement("li");
+          li.textContent = rec.address;
+          li.addEventListener("click", () => {
+            document.getElementById("address").value = rec.address;
+            fillForm(rec);
+            renderList("");
+          });
+          list.appendChild(li);
+        }
+      });
+    }
+
+    document.getElementById("importBtn").addEventListener("click", () => {
+      const files = document.getElementById("fileUpload").files;
+      if (!files.length) return alert("בחר קבצי JSON");
 
       for (const file of files) {
         const reader = new FileReader();
-        reader.onload = function(e) {
+        reader.onload = function (e) {
           try {
             let json = JSON.parse(e.target.result);
-
-            // Если массив — преобразуем в объект с уникальными ID
             if (Array.isArray(json)) {
-              json = Object.fromEntries(
-                json.map((item, idx) => [`imp_${Date.now()}_${idx}`, item])
-              );
+              json = Object.fromEntries(json.map((obj, i) => [`imp_${Date.now()}_${i}`, obj]));
             }
 
-            // Загружаем каждую запись в Firebase
-            Object.entries(json).forEach(([id, item]) => {
-              const itemRef = ref(db, id);
-              set(itemRef, item)
-                .then(() => log(`✓ הועלה: ${id}`))
-                .catch(err => log(`✗ שגיאה ב-${id}: ${err}`));
+            Object.entries(json).forEach(([id, obj]) => {
+              set(ref(db, id), obj)
+                .then(() => {
+                  allData[id] = obj;
+                  renderList(document.getElementById("address").value);
+                })
+                .catch(err => console.error("שגיאה:", err));
             });
-
           } catch (err) {
-            log(`✗ קובץ לא תקין: ${file.name}`);
+            alert("קובץ לא תקין: " + file.name);
           }
         };
         reader.readAsText(file);
       }
     });
 
-    function log(message) {
-      const p = document.createElement("p");
-      p.textContent = message;
-      logDiv.appendChild(p);
-    }
+    // Загрузка существующих данных
+    get(child(dbRef, "/")).then((snapshot) => {
+      if (snapshot.exists()) {
+        allData = snapshot.val();
+        renderList();
+        document.getElementById("address").addEventListener("input", (e) => {
+          renderList(e.target.value);
+        });
+      }
+    });
   </script>
 
   <style>
-    body { font-family: sans-serif; direction: rtl; padding: 2em; background: #f5f5f5; }
-    .container { background: white; padding: 2em; border-radius: 10px; max-width: 600px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h2 { margin-top: 0; }
-    input[type="file"] { margin-bottom: 1em; }
-    button { padding: 0.5em 1em; font-size: 16px; cursor: pointer; }
-    #log p { margin: 0.3em 0; font-size: 14px; }
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 2em; }
+    .container { max-width: 600px; margin: auto; background: white; padding: 2em; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .form-group { margin-bottom: 1em; position: relative; }
+    label { display: block; margin-bottom: 0.3em; }
+    input { width: 100%; padding: 0.5em; border-radius: 5px; border: 1px solid #ccc; }
+    ul#address-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      position: absolute;
+      width: 100%;
+      max-height: 150px;
+      overflow-y: auto;
+      z-index: 10;
+    }
+    ul#address-list li {
+      padding: 0.5em;
+      cursor: pointer;
+    }
+    ul#address-list li:hover {
+      background-color: #f0f0f0;
+    }
+    button { padding: 0.5em 1em; font-size: 14px; margin-top: 0.5em; cursor: pointer; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>ייבוא קבצי JSON לפרויקטים</h2>
+    <h2>בחירת כתובת + ייבוא JSON</h2>
+
+    <div class="form-group">
+      <label for="address">כתובת</label>
+      <input id="address" type="text" autocomplete="off" placeholder="חפש כתובת...">
+      <ul id="address-list"></ul>
+    </div>
+
+    <div class="form-group"><label>עיר</label><input id="city" type="text" readonly></div>
+    <div class="form-group"><label>תאריך</label><input id="date" type="text" readonly></div>
+    <div class="form-group"><label>תיאור</label><input id="desc" type="text" readonly></div>
+    <div class="form-group"><label>מערכת</label><input id="system" type="text" readonly></div>
+    <div class="form-group"><label>מחיר</label><input id="price" type="text" readonly></div>
+    <div class="form-group"><label>אחראי</label><input id="manager" type="text" readonly></div>
+    <div class="form-group"><label>סוג הסכם</label><input id="agreement" type="text" readonly></div>
+
+    <hr>
+    <h3>ייבוא קבצי JSON</h3>
     <input type="file" id="fileUpload" multiple accept=".json">
-    <br>
-    <button id="importBtn">יבא הכל ל-Firebase</button>
-    <div id="log"></div>
+    <button id="importBtn">יבא ל-Firebase</button>
   </div>
 </body>
 </html>
