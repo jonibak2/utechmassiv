@@ -29,7 +29,6 @@
     }
 
     function fillForm(data) {
-      document.getElementById("city").value = data.city || "";
       document.getElementById("date").value = formatDate(data.date || "");
       document.getElementById("desc").value = data.description || "";
       document.getElementById("system").value = data.system || "";
@@ -42,19 +41,31 @@
       const list = document.getElementById("address-list");
       list.innerHTML = "";
 
+      if (!search.trim()) {
+        list.style.display = "none";
+        return;
+      }
+
       const searchLower = search.trim().toLowerCase();
+      let matches = 0;
+
       Object.entries(allData).forEach(([id, rec]) => {
-        if (rec.address && rec.address.toLowerCase().includes(searchLower)) {
+        const fullAddress = `${rec.address} ${rec.city}`;
+        if (fullAddress.toLowerCase().includes(searchLower)) {
           const li = document.createElement("li");
-          li.textContent = rec.address;
+          li.textContent = fullAddress;
           li.addEventListener("click", () => {
-            document.getElementById("address").value = rec.address;
+            document.getElementById("address").value = fullAddress;
             fillForm(rec);
-            renderList("");
+            list.innerHTML = "";
+            list.style.display = "none";
           });
           list.appendChild(li);
+          matches++;
         }
       });
+
+      list.style.display = matches ? "block" : "none";
     }
 
     document.getElementById("importBtn").addEventListener("click", () => {
@@ -86,13 +97,18 @@
       }
     });
 
-    // Загрузка существующих данных
+    // Загрузка всех данных
     get(child(dbRef, "/")).then((snapshot) => {
       if (snapshot.exists()) {
         allData = snapshot.val();
-        renderList();
         document.getElementById("address").addEventListener("input", (e) => {
           renderList(e.target.value);
+        });
+        document.addEventListener("click", (e) => {
+          if (!document.getElementById("address-list").contains(e.target) &&
+              e.target.id !== "address") {
+            document.getElementById("address-list").style.display = "none";
+          }
         });
       }
     });
@@ -116,6 +132,7 @@
       max-height: 150px;
       overflow-y: auto;
       z-index: 10;
+      display: none;
     }
     ul#address-list li {
       padding: 0.5em;
@@ -132,12 +149,11 @@
     <h2>בחירת כתובת + ייבוא JSON</h2>
 
     <div class="form-group">
-      <label for="address">כתובת</label>
+      <label for="address">כתובת + עיר</label>
       <input id="address" type="text" autocomplete="off" placeholder="חפש כתובת...">
       <ul id="address-list"></ul>
     </div>
 
-    <div class="form-group"><label>עיר</label><input id="city" type="text" readonly></div>
     <div class="form-group"><label>תאריך</label><input id="date" type="text" readonly></div>
     <div class="form-group"><label>תיאור</label><input id="desc" type="text" readonly></div>
     <div class="form-group"><label>מערכת</label><input id="system" type="text" readonly></div>
