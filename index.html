@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>ייבוא פרויקטים ל-Firebase</title>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCH6xMNFHhref9S7X07yJR9fafDHzrmEtc",
+      authDomain: "utechdb-d895e.firebaseapp.com",
+      projectId: "utechdb-d895e",
+      storageBucket: "utechdb-d895e.appspot.com",
+      messagingSenderId: "678575418983",
+      appId: "1:678575418983:web:465b9e0b63aa9a49966ec2",
+      databaseURL: "https://utechdb-d895e-default-rtdb.firebaseio.com/"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    const fileInput = document.getElementById("fileUpload");
+    const importBtn = document.getElementById("importBtn");
+    const logDiv = document.getElementById("log");
+
+    importBtn.addEventListener("click", () => {
+      const files = fileInput.files;
+      if (!files.length) {
+        alert("נא לבחור קבצי JSON");
+        return;
+      }
+
+      for (const file of files) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            let json = JSON.parse(e.target.result);
+
+            // Если массив — преобразуем в объект с уникальными ID
+            if (Array.isArray(json)) {
+              json = Object.fromEntries(
+                json.map((item, idx) => [`imp_${Date.now()}_${idx}`, item])
+              );
+            }
+
+            // Загружаем каждую запись в Firebase
+            Object.entries(json).forEach(([id, item]) => {
+              const itemRef = ref(db, id);
+              set(itemRef, item)
+                .then(() => log(`✓ הועלה: ${id}`))
+                .catch(err => log(`✗ שגיאה ב-${id}: ${err}`));
+            });
+
+          } catch (err) {
+            log(`✗ קובץ לא תקין: ${file.name}`);
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    function log(message) {
+      const p = document.createElement("p");
+      p.textContent = message;
+      logDiv.appendChild(p);
+    }
+  </script>
+
+  <style>
+    body { font-family: sans-serif; direction: rtl; padding: 2em; background: #f5f5f5; }
+    .container { background: white; padding: 2em; border-radius: 10px; max-width: 600px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { margin-top: 0; }
+    input[type="file"] { margin-bottom: 1em; }
+    button { padding: 0.5em 1em; font-size: 16px; cursor: pointer; }
+    #log p { margin: 0.3em 0; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ייבוא קבצי JSON לפרויקטים</h2>
+    <input type="file" id="fileUpload" multiple accept=".json">
+    <br>
+    <button id="importBtn">יבא הכל ל-Firebase</button>
+    <div id="log"></div>
+  </div>
+</body>
+</html>

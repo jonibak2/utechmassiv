@@ -1,0 +1,1542 @@
+[
+  {
+    "date": "09092024",
+    "address": "דרך המלך 11",
+    "city": "גני תקווה",
+    "description": "בניין 17 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "שני אשת",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28102024",
+    "address": "דרך הים 18",
+    "city": "גני תקווה",
+    "description": "בניין 22 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "4600",
+    "manager": "גיא ספיר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04082024",
+    "address": "דרך הים 20",
+    "city": "גני תקווה",
+    "description": "בניין 22 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "5200",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "23012024",
+    "address": "ברוש 1",
+    "city": "גני תקווה",
+    "description": "בניין 11 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "4000",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "22092024",
+    "address": "ברוש 3",
+    "city": "גני תקווה",
+    "description": "בניין 11 קומות, + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "שני אשת ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "23012024",
+    "address": "הברוש 5",
+    "city": "גני תקווה",
+    "description": "בניין 11 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "3000",
+    "manager": "ספיר ניהול נכסים",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09012024",
+    "address": "איילות 14",
+    "city": "גני תקווה",
+    "description": "בניין 18 קומות+גג, + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "ספיר ניהול נכסים",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09092024",
+    "address": "אדני פז 29",
+    "city": "חדרה",
+    "description": "בניין 8 קומות+ + קומת חניון",
+    "system": "GUARD-7",
+    "price": "2100",
+    "manager": "גילי ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09092024",
+    "address": "אדני פז 42",
+    "city": "חדרה",
+    "description": "בניין 16 קומות+ + גג",
+    "system": "ADR-3000",
+    "price": "2600",
+    "manager": "גילי ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "31102024",
+    "address": "אשכולית 30",
+    "city": "חדרה",
+    "description": "בניין 15 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "אקסטרא",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "21072024",
+    "address": "חוט השני 1",
+    "city": "חדרה",
+    "description": "בניין 16 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2600",
+    "manager": "ליאב הבית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "15052024",
+    "address": "הדודאים 3",
+    "city": "חדרה",
+    "description": "בניין 16 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "ליאב הבית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "07042024",
+    "address": "הדודאים 5",
+    "city": "חדרה",
+    "description": "בניין 16 קומות+ + גג",
+    "system": "ADR-3000",
+    "price": "2600",
+    "manager": "ליאב",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08052024",
+    "address": "רחבעם זאבי 13",
+    "city": "חדרה",
+    "description": "בניין 24 קומות+גג, + חניון 2 קומות",
+    "system": "ADR-7000",
+    "price": "3000",
+    "manager": "החוף הלבן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08052024",
+    "address": "רחבעם זאבי 15",
+    "city": "חדרה",
+    "description": "בניין 24 קומות+גג, + חניון 2 קומות",
+    "system": "ADR-7000",
+    "price": "3000",
+    "manager": "החוף הלבן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "27052024",
+    "address": "אדני פז 50",
+    "city": "חדרה",
+    "description": "בניין 23 קומות+ + גג",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "ליאב אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "31102024",
+    "address": "עין גדי 5",
+    "city": "חדרה",
+    "description": "בניין 16 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "וועד בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01072024",
+    "address": "התחיה 3",
+    "city": "פרדס חנה",
+    "description": "בניין 15 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2200",
+    "manager": "וועד בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09092024",
+    "address": "התחיה 5",
+    "city": "פרדס חנה",
+    "description": "בניין 15 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "4500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "11092024",
+    "address": "ערבי נחל 11",
+    "city": "גבעתיים",
+    "description": "בניין 24 קומות+גג, + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "2800",
+    "manager": "ניהול בתים",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01052024",
+    "address": "גולומב 70",
+    "city": "גבעתיים",
+    "description": "בניין 7 קומות+ + חניון 2 קומות",
+    "system": "Golde x J-424",
+    "price": "1700",
+    "manager": "איזיהאוס",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "11042024",
+    "address": "בלוך 23",
+    "city": "גבעתיים",
+    "description": "בניין 15 קומות+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "3000",
+    "manager": "בראל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "22092024",
+    "address": "תוצרת הארץ 11",
+    "city": "תל אביב",
+    "description": "בניין 35 קומות+ + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "3700",
+    "manager": "זיו ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01102024",
+    "address": "נחלת יצחק 14",
+    "city": "תל אביב",
+    "description": "בניין 27 קומות+ + חניון 2 קומות",
+    "system": "(Mircom )Secutron",
+    "price": "7000",
+    "manager": "בראל ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "07072024",
+    "address": "בית אל 17",
+    "city": "תל אביב",
+    "description": "בניין 24 קומות+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5100",
+    "manager": "בוריס ניר ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20022024",
+    "address": "רמה 3",
+    "city": "תל אביב",
+    "description": "בניין 10 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "3900",
+    "manager": "אב בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20022024",
+    "address": "אייזק שטרן 17",
+    "city": "תל אביב",
+    "description": "בניין 13 קומות+ + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "2250",
+    "manager": "משרד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01022024",
+    "address": "ארתור רובינשטיין 5",
+    "city": "תל אביב",
+    "description": "בניין 7 קומות+ + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "1800",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05122024",
+    "address": "מעונות סטודנטים תל אביב יפו",
+    "city": "תל אביב",
+    "description": "קמפוס של 4 מבנים, + כל בניין 9 קומות+חניון משותף",
+    "system": "Mircom",
+    "price": "10500",
+    "manager": "שיכון ובינוי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "06112024",
+    "address": "לבונטין 19 כניסה A+B+C",
+    "city": "תל אביב",
+    "description": "בניין 6 קומות+ + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "5400",
+    "manager": "עוגן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "13102024",
+    "address": "ניסים אלוני 4",
+    "city": "תל אביב",
+    "description": "בניין 43 קומות+גג, + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "7500",
+    "manager": "נתן ניהול W  + פריים בע\"מ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "24072024",
+    "address": "דודו דותן 5",
+    "city": "נתניה",
+    "description": "בניין 21 קומות+ + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2400",
+    "manager": "קומפלט ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "23092024",
+    "address": "דודו דותן 14",
+    "city": "נתניה",
+    "description": "בניין 20 קומות+גג + קומת חניון",
+    "system": "ADR-3000",
+    "price": "4900",
+    "manager": "ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "13062024",
+    "address": "מלבסקי 5",
+    "city": "נתניה",
+    "description": "בניין 19 קומות+גג + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "ערן א.א",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "29102024",
+    "address": "מלבסקי 11",
+    "city": "נתניה",
+    "description": "בניין 18 קומות+ + קומת חניון",
+    "system": "ADR-3000",
+    "price": "3200",
+    "manager": "דוד ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08092024",
+    "address": "אגמים 3",
+    "city": "נתניה",
+    "description": "בניין 16 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "4200",
+    "manager": "וועד בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "17122024",
+    "address": "אגמים 9",
+    "city": "נתניה",
+    "description": "בניין 15 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "4000",
+    "manager": "המרכז הישראלי + שליו",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "13022024",
+    "address": "אגמים 11",
+    "city": "נתניה",
+    "description": "בניין 16 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5200",
+    "manager": "בני פיקס ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20032024",
+    "address": "אגמים 13",
+    "city": "נתניה",
+    "description": "בניין 17 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2100",
+    "manager": "א.א אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "17122024",
+    "address": "אייזנהאואר 1",
+    "city": "נתניה",
+    "description": "בניין 29 קומות+ + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "3300",
+    "manager": "ערן א.א",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "25072024",
+    "address": "אלונים 20",
+    "city": "נתניה",
+    "description": "בניין 21 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2700",
+    "manager": "בניין פלוס",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "11032024",
+    "address": "אלונים 22",
+    "city": "נתניה",
+    "description": "בניין 21 קומות+גג, + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "2700",
+    "manager": "בניין פלוס",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28032024",
+    "address": "אלונים 24",
+    "city": "נתניה",
+    "description": "בניין 21 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2700",
+    "manager": "בניין פלוס",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "18022024",
+    "address": "החשמונאים 7",
+    "city": "נתניה",
+    "description": "בניין 20 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "25072024",
+    "address": "החשמונאים 11",
+    "city": "נתניה",
+    "description": "בניין 20 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "בניין פלוס",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01082024",
+    "address": "הפארק 18",
+    "city": "נתניה",
+    "description": "בניין 7 קומות+ + קומת חניון",
+    "system": "GUARD-7",
+    "price": "2200",
+    "manager": "הני האוור אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05032024",
+    "address": "אורגד 2",
+    "city": "נתניה",
+    "description": "בניין 15 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "06082024",
+    "address": "אורגד 4",
+    "city": "נתניה",
+    "description": "בניין 15 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "שחר 5 כוכבים",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "06082024",
+    "address": "זלמן שזר 7",
+    "city": "נתניה",
+    "description": "בניין 22 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2600",
+    "manager": "שליו",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "16052024",
+    "address": "הגרא 10 ב",
+    "city": "נתניה",
+    "description": "בניין 15 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2000",
+    "manager": "איתן וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01092024",
+    "address": "אהוד מנור 8",
+    "city": "נתניה",
+    "description": "בניין 23 קומות+ + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2400",
+    "manager": "בני עד הגג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "21052024",
+    "address": "נתן יונתן 12",
+    "city": "נתניה",
+    "description": "בניין 18 קומות+גג + קומה טכני",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01092024",
+    "address": "נתן יונתן 24",
+    "city": "נתניה",
+    "description": "בניין 24 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2850",
+    "manager": "היי טאוור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01092024",
+    "address": "נתן יונתן 26",
+    "city": "נתניה",
+    "description": "בניין 24 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2850",
+    "manager": "היי טאוור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01092024",
+    "address": "נתן יונתן 28",
+    "city": "נתניה",
+    "description": "בניין 26 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5200",
+    "manager": "היי טאוור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "עוזי חיטמן 1",
+    "city": "נתניה",
+    "description": "בניין 25 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "5500",
+    "manager": "רינה VRN",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "עוזי חיטמן 3",
+    "city": "נתניה",
+    "description": "בניין 25 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "5500",
+    "manager": "רינה VRN",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "עוזי חיטמן 5",
+    "city": "נתניה",
+    "description": "בניין 25 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "5500",
+    "manager": "רינה VRN",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "11032024",
+    "address": "קרל פופר 9",
+    "city": "נתניה",
+    "description": "בניין 32 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "שליו חברת ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "18032024",
+    "address": "אריק לביא 14",
+    "city": "נתניה",
+    "description": "בניין 17 קומות, + קומת חניון",
+    "system": "Mircom",
+    "price": "4400",
+    "manager": "ערן א.א + אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20032024",
+    "address": "אריק לביא 16",
+    "city": "נתניה",
+    "description": "בניין 17 קומות, + קומת חניון",
+    "system": "Mircom",
+    "price": "4400",
+    "manager": "ערן א.א + אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "22012024",
+    "address": "שגיא 3",
+    "city": "נתניה",
+    "description": "בניין 14 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1700",
+    "manager": "שליו המרכז הישראלי + לאחזקת מבנים",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30092024",
+    "address": "אחוזה 88",
+    "city": "רעננה",
+    "description": "בניין 10 קומות+ + חניון 3 קומות",
+    "system": "ADR-3000",
+    "price": "1700",
+    "manager": "רועי ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "25022024",
+    "address": "התעשיה 8",
+    "city": "רעננה",
+    "description": "בניין 8 קומות+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "רז במערב",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05122024",
+    "address": "בורוכוב 86 ב",
+    "city": "רעננה",
+    "description": "בניין 10 קומות+ + חניון 3 קומות",
+    "system": "BOSCH",
+    "price": "2500",
+    "manager": "עדי חברת ניהול + שכנים בכיף",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "02102024",
+    "address": "יצחק שדה 8",
+    "city": "בת ים",
+    "description": "בניין 34 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "5600",
+    "manager": "אירי וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "03122024",
+    "address": "הרצל 62",
+    "city": "בת ים",
+    "description": "בניין 9 קומות+ + חניון 2 קומות.",
+    "system": "GUARD-7",
+    "price": "2000",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04092024",
+    "address": "עופרה חזה 9",
+    "city": "בת ים",
+    "description": "בניין 25 קומות+ + חניון 2 קומות.",
+    "system": "Mircom רכזת בבניין",
+    "price": "5850",
+    "manager": "עדי ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04092024",
+    "address": "עופרה חזה 9",
+    "city": "בת ים",
+    "description": "בניין משרדים + 3 קומות",
+    "system": "Mircom רכזת במסחר",
+    "price": "2000",
+    "manager": "עדי ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08072024",
+    "address": "יוחנן הסנדלר 4 בניין מגורים",
+    "city": "בת ים",
+    "description": "בניין 46 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "15000",
+    "manager": "יקיר ניהול",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20032024",
+    "address": "הקוממיות 9 ??",
+    "city": "בת ים",
+    "description": "בניין 45 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "13000",
+    "manager": "נתון ניהול עדן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08102024",
+    "address": "קציר 16",
+    "city": "הוד השרון",
+    "description": "בניין 18 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "מאיה און הראל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20112024",
+    "address": "הנשיאים 42",
+    "city": "הוד השרון",
+    "description": "בניין 14 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1600",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19062024",
+    "address": "נוגה 6",
+    "city": "הוד השרון",
+    "description": "בניין 10 קומות+קומת טכני, + חניון 3 קומות.",
+    "system": "ADR-3000",
+    "price": "1800",
+    "manager": "אופרה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "15042024",
+    "address": "נוגה 8",
+    "city": "הוד השרון",
+    "description": "בניין 10 קומות+קומת טכני, + חניון 3 קומות.",
+    "system": "ADR-3000",
+    "price": "2000",
+    "manager": "אופרה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04032024",
+    "address": "השחר 9",
+    "city": "הוד השרון",
+    "description": "בניין 13 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1600",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08122024",
+    "address": "אסירי ציון 21",
+    "city": "הוד השרון",
+    "description": "בניין 14 קומות +",
+    "system": "ADR-3000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "15042024",
+    "address": "רמתיים 91",
+    "city": "הוד השרון",
+    "description": "בניין 11 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "אלוף דוד 11",
+    "city": "ראשון לציון",
+    "description": "בניין 15 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1600",
+    "manager": "גבי וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "10122024",
+    "address": "ירושלים 123",
+    "city": "ראשון לציון",
+    "description": "בניין 22 קומות+גג+קרקע+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "6000",
+    "manager": "מטאור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "10122024",
+    "address": "שלמה לוי 8",
+    "city": "ראשון לציון",
+    "description": "בניין 22 קומות+גג+ + קומת חניון",
+    "system": "Mircom",
+    "price": "6000",
+    "manager": "מטאור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "25122024",
+    "address": "שלמה לוי 8+ירושלים 123",
+    "city": "ראשון לציון",
+    "description": "מסחר +",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "מטאור",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04092024",
+    "address": "דודו דותן 4",
+    "city": "ראשון לציון",
+    "description": "בניין 24 קומות+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "השתתפויות בנכסים + בישראל בעמ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04092024",
+    "address": "חיים חפר 15",
+    "city": "ראשון לציון",
+    "description": "בניין 24 קומות+ + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "השתתפויות בנכסים + בישראל בעמ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08082024",
+    "address": "סיטרמן 12",
+    "city": "ראשון לציון",
+    "description": "בניין 13 קומות +",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "חברת ניהול + נ.עליון אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "15012024",
+    "address": "מוזס 2 בניין משרדים",
+    "city": "ראשון לציון",
+    "description": "בניין 7 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "7500",
+    "manager": "נתם ניהול צרפתי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08122024",
+    "address": "ברוש 3",
+    "city": "באר יעקב",
+    "description": "בניין 21 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "2000",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "14032024",
+    "address": "שוהם 5",
+    "city": "באר יעקב",
+    "description": "בניין 12 קומות +",
+    "system": "ADR-3000",
+    "price": "2150",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "14112024",
+    "address": "שוהם 18",
+    "city": "באר יעקב",
+    "description": "בניין 12 קומות +",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "אמיר וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04072024",
+    "address": "אפרים קישון 3",
+    "city": "באר יעקב",
+    "description": "בניין 5 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "1300",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "12122024",
+    "address": "נופך 1",
+    "city": "באר יעקב",
+    "description": "בניין 23 קומות +",
+    "system": "Mircom",
+    "price": "900",
+    "manager": "מנדי מן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "12122024",
+    "address": "נופך 5",
+    "city": "באר יעקב",
+    "description": "בניין 14 קומות +",
+    "system": "Mircom",
+    "price": "800",
+    "manager": "מנדי מן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "26062024",
+    "address": "שא נס 15",
+    "city": "באר יעקב",
+    "description": "בניין 15 קומות+ + גג",
+    "system": "ADR-3000",
+    "price": "1850",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19122024",
+    "address": "כנרת 4",
+    "city": "רמת גן",
+    "description": "בניין 23 קומות+גג, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "א.י אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28082024",
+    "address": "עמק החולה 8",
+    "city": "רמת גן",
+    "description": "בניין 23 קומות+גג, + קומת חניון",
+    "system": "ADR-7000",
+    "price": "2600",
+    "manager": "אפרים ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28082024",
+    "address": "עמק החולה 10",
+    "city": "רמת גן",
+    "description": "בניין 23 קומות+ + גג",
+    "system": "ADR-7000",
+    "price": "2600",
+    "manager": "אפרים ב.ג",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "15042024",
+    "address": "הבילויים 8",
+    "city": "רמת גן",
+    "description": "בניין 8 קומות+ + חניון 2 קומות",
+    "system": "גולדקס",
+    "price": "1500",
+    "manager": "חברת ניהול ABM",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30122024",
+    "address": "ז'בוטינסקי 105",
+    "city": "רמת גן",
+    "description": "מסחר +",
+    "system": "Mircom",
+    "price": "4800",
+    "manager": "נתון פסגת דן",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30042024",
+    "address": "התקווה 11",
+    "city": "רמת גן",
+    "description": "בניין 39 קומות, + חניון 4 קומות",
+    "system": "Mircom",
+    "price": "9800",
+    "manager": "היי טאואר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01022024",
+    "address": "אחד העם 14",
+    "city": "רמת גן",
+    "description": "בניין 32 קומות+2 קומות טכני+ + גג,חניון קומה",
+    "system": "ADR-3000",
+    "price": "3500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08052024",
+    "address": "דמרי סנטר",
+    "city": "כפר סבא",
+    "description": "מסחר 3 קומות +",
+    "system": "Mircom",
+    "price": "10500",
+    "manager": "שמעון",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30052024",
+    "address": "בן גוריון 9",
+    "city": "ראש העין",
+    "description": "בניין 7 קומות +",
+    "system": "TSA-1000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30052024",
+    "address": "בן גוריון 13",
+    "city": "ראש העין",
+    "description": "בניין 7 קומות +",
+    "system": "TSA-1000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30052024",
+    "address": "חניון משותף בן גוריון 7-13",
+    "city": "ראש העין",
+    "description": "חניון משותף +",
+    "system": "Goldhash רכזת בחניון",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05052024",
+    "address": "קריאל גרדוש 1",
+    "city": "ראש העין",
+    "description": "בניין 7 קומות + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "1500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "07032024",
+    "address": "דליה רביקוביץ 4",
+    "city": "ראש העין",
+    "description": "בניין 15 קומות, + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "1700",
+    "manager": "הצוות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "07032024",
+    "address": "דליה רביקוביץ 6",
+    "city": "ראש העין",
+    "description": "בניין 15 קומות+גג, + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "1700",
+    "manager": "הצוות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "25122024",
+    "address": "חנה רובינא 8",
+    "city": "ראש העין",
+    "description": "בניין 11 קומות+גג, + קומת חניון",
+    "system": "ADR-3000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04032024",
+    "address": "יונתן רטוש 1",
+    "city": "ראש העין",
+    "description": ", בניין 23 קומות + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "4800",
+    "manager": "ר.א אור + אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "18092024",
+    "address": "יונתן רטוש 8",
+    "city": "ראש העין",
+    "description": "בניין 18 קומות+ + קומת חניון",
+    "system": "Mircom",
+    "price": "5250",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08122024",
+    "address": "יונתן רטוש 16",
+    "city": "ראש העין",
+    "description": "בניין 11 קומות+ + גג",
+    "system": "ADR-3000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30052024",
+    "address": "וייצמן 13",
+    "city": "ראש העין",
+    "description": "בניין 6 קומות +",
+    "system": "TSA-1000",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30052024",
+    "address": "אלברט איינשטיין 11",
+    "city": "ראש העין",
+    "description": "בניין 7 קומות +",
+    "system": "Bentel - J-424",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "03092024",
+    "address": "אלברט איינשטיין 20",
+    "city": "ראש העין",
+    "description": "בניין 4 קומות+ + קומת חניון",
+    "system": "GUARD-7",
+    "price": "500",
+    "manager": "ארקל",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09062024",
+    "address": "ז'בוטינסקי 50",
+    "city": "גבעת שמואל",
+    "description": "בניין 15 קומות+גג, + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "3200",
+    "manager": "וועד הבית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "29122024",
+    "address": "מבצע דקל 12",
+    "city": "פתח תקווה",
+    "description": "בניין 28 קומות+גלריה+גג, + חניון 3 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "וועד בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "01022024",
+    "address": "מבצע דקל 13",
+    "city": "פתח תקווה",
+    "description": "בניין 25 קומות +",
+    "system": "ADR-3000",
+    "price": "2100",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05022024",
+    "address": "רבקה גובר 3",
+    "city": "פתח תקווה",
+    "description": "בניין 16 קומות, + קומת חניון משותף",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "זך נדיר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05022024",
+    "address": "שרגא רפאלי 6",
+    "city": "פתח תקווה",
+    "description": "בניין 16 קומות, + קומת חניון משותף",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "זך נדיר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "04082024",
+    "address": "יעל רום 13",
+    "city": "פתח תקווה",
+    "description": "בניין 22 קומות+ + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "לורן מנהלים נכון",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09042024",
+    "address": "דנקנר 1",
+    "city": "פתח תקווה",
+    "description": "בניין 28 קומות+גג, + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "מנהלים נכון + אחזקות בע\"מ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09042024",
+    "address": "דנקנר 3",
+    "city": "פתח תקווה",
+    "description": "בניין 28 קומות+גג, + חניון 4 קומות",
+    "system": "ADR-3000",
+    "price": "2500",
+    "manager": "מנהלים נכון + אחזקות בע\"מ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28072024",
+    "address": "קראוזה 1",
+    "city": "חולון",
+    "description": "בניין 24 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "4800",
+    "manager": "חברת ניהול + נ.עליון אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28072024",
+    "address": "קראוזה 3",
+    "city": "חולון",
+    "description": "בניין 24 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "4800",
+    "manager": "דוד ומילר בעמ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "18012024",
+    "address": "אורי אלמוג 1",
+    "city": "חולון",
+    "description": "בניין 9 קומות+ + קומת חניון",
+    "system": "GUARD-7",
+    "price": "1700",
+    "manager": "וועד בית",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "05092024",
+    "address": "מעונות סטודנטים רחוב הופיין 59",
+    "city": "חולון",
+    "description": "בניין 10קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "14000",
+    "manager": "שיכון ובינוי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "31072024",
+    "address": "יער יתיר 32",
+    "city": "מודיעין",
+    "description": "בניין 8 קומות, + קומת חניון",
+    "system": "GUARD-7",
+    "price": "750",
+    "manager": "יהלום אדום",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "03062024",
+    "address": "ישעיהו 7",
+    "city": "קרית אונו",
+    "description": "בניין 18 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "עידו דגש",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "20052024",
+    "address": "יצחק רבין 4",
+    "city": "קרית אונו",
+    "description": "בניין 20 קומות+גג, + חניון קומה",
+    "system": "ADR-3000",
+    "price": "2000",
+    "manager": "אדן אור ניהול + ואחזקות מבנים בעמ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "08092024",
+    "address": "יצחק רבין 10",
+    "city": "קרית אונו",
+    "description": "בניין 23 קומות+ + חניון 2 קומות.",
+    "system": "ADR-3000",
+    "price": "2000",
+    "manager": "אדן אור ניהול + ואחזקות מבנים בעמ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28022024",
+    "address": "הרשקו 8",
+    "city": "רחובות",
+    "description": "בניין 18 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "4572.5",
+    "manager": "ויצמן אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28022024",
+    "address": "אפרים קציר 21",
+    "city": "רחובות",
+    "description": "בניין 18 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "4572.5",
+    "manager": "ויצמן אחזקות",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "02052024",
+    "address": "החלוץ 42",
+    "city": "רמת השרון",
+    "description": "בניין 22 קומות+ + חניון 4 קומות",
+    "system": "Mircom רכזת ראשית",
+    "price": "5900",
+    "manager": "רימוני תדהר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "02052024",
+    "address": "החלוץ 44",
+    "city": "רמת השרון",
+    "description": "בניין 22 קומות+ + חניון 4 קומות",
+    "system": "Mircom רכזת משנית",
+    "price": "5900",
+    "manager": "רימוני תדהר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "09072024",
+    "address": "ויצמן 23",
+    "city": "רמת השרון",
+    "description": "בניין 7 קומות, + חניון 3 קומות.",
+    "system": "Mircom",
+    "price": "4500",
+    "manager": "וועד",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19122024",
+    "address": "הגנים 17",
+    "city": "רמת השרון",
+    "description": "בניין 15 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "נ.בוארון",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "שושנה דמארי 9",
+    "city": "כפר יונה",
+    "description": "בניין 14 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "ב.ג פאר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "שושנה דמארי 11",
+    "city": "כפר יונה",
+    "description": "בניין 14 קומות, + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "ב.ג פאר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19112024",
+    "address": "שושנה דמארי 13",
+    "city": "כפר יונה",
+    "description": "בניין 14 קומות+גג+ + חניון 2 קומות",
+    "system": "ADR-3000",
+    "price": "1700",
+    "manager": "ב.ג פאר",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "עמוס עוז 3",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "עמוס עוז 5",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "עמוס עוז 7",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "עמוס עוז 9",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "עמוס עוז 11",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "מוטה גור 1",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "מוטה גור 3",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "מוטה גור 5",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "מוטה גור 7",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "19092024",
+    "address": "מוטה גור 9",
+    "city": "הרצליה",
+    "description": "בניין 9 קומות, + חניון 2 קומות.",
+    "system": "Mircom",
+    "price": "2500",
+    "manager": "שוסטר ניהול + ואחזקה",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "30122024",
+    "address": "יעקב דורי 2",
+    "city": "רמלה",
+    "description": "מסחר 2 קומות",
+    "system": "Mircom",
+    "price": "5000",
+    "manager": "שרבט",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28022024",
+    "address": "רפאל איתן 4",
+    "city": "רמלה",
+    "description": "בניין 18 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "מיקדן די.אל.אר בע\"מ + עברו לפרסקובסקי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28022024",
+    "address": "משה לוי 8",
+    "city": "רמלה",
+    "description": "בניין 18 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "מיקדן די.אל.אר בע\"מ + עברו לפרסקובסקי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "28022024",
+    "address": "משה לוי 13",
+    "city": "רמלה",
+    "description": "בניין 18 קומות+ + חניון 2 קומות",
+    "system": "Mircom",
+    "price": "5500",
+    "manager": "מיקדן די.אל.אר בע\"מ + עברו לפרסקובסקי",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  },
+  {
+    "date": "31032024",
+    "address": "אסירי ציון 2 מרכז לאון פישמן",
+    "city": "ירושלים",
+    "description": "קומה אחת+ + פרוזדור תחתון",
+    "system": "Mircom",
+    "price": "6000",
+    "manager": "מ.ש קנטרי בע\"מ",
+    "agreement_raw": "הסכם לא כולל חלפים"
+  }
+]
